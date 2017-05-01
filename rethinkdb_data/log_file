@@ -1,0 +1,47 @@
+2017-04-29T15:24:36.694932000 0.007934s notice: In recursion: removing file 'D:\\Development\\Code\\fluked\\membership\\rethinkdb_data\\tmp'
+2017-04-29T15:24:36.695945500 0.008462s warn: Trying to delete non-existent file 'D:\\Development\\Code\\fluked\\membership\\rethinkdb_data\\tmp'
+2017-04-29T15:24:36.696933700 0.009853s notice: Initializing directory D:\\Development\\Code\\fluked\\membership\\rethinkdb_data
+2017-04-29T15:24:36.697934100 0.010459s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory 'D:\\Development\\Code\\fluked\\membership\\rethinkdb_data' did not already exist or is empty.)
+2017-04-29T15:24:36.697934101 0.010498s notice: Running rethinkdb 2.3.5-windows (MSC 190023506)...
+2017-04-29T15:24:36.697934102 0.010793s notice: Running on 6.2.9200 (Windows 8, Server 2012)
+2017-04-29T15:24:36.697934103 0.010825s notice: Loading data from directory D:\\Development\\Code\\fluked\\membership\\rethinkdb_data
+2017-04-29T15:24:37.028498700 0.340868s info: Automatically using cache size of 1728 MB
+2017-04-29T15:24:37.033987200 0.346894s notice: Listening for intracluster connections on port 29015
+2017-04-29T15:24:37.038962500 0.351874s notice: Listening for client driver connections on port 28015
+2017-04-29T15:24:37.039962900 0.352337s notice: Listening for administrative HTTP connections on port 8080
+2017-04-29T15:24:37.039962901 0.352354s notice: Listening on cluster address: 127.0.0.1
+2017-04-29T15:24:37.039962902 0.352358s notice: Listening on driver address: 127.0.0.1
+2017-04-29T15:24:37.039962903 0.352367s notice: Listening on http address: 127.0.0.1
+2017-04-29T15:24:37.039962904 0.352370s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-04-29T15:24:37.039962905 0.352375s notice: Server ready, "Gandalf_h48" 71795ace-ad68-4039-9753-6f2778167b45
+2017-04-29T15:27:39.617044500 182.929973s notice: Server got Control-C; shutting down...
+2017-04-29T15:27:39.618015200 182.930320s notice: Shutting down client connections...
+2017-04-29T15:27:39.618015201 182.930541s notice: All client connections closed.
+2017-04-29T15:27:39.618015202 182.930547s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2017-04-29T15:27:39.619031100 182.931799s notice: Storage engine shut down.
+2017-04-29T15:28:33.712109900 0.007914s notice: Running rethinkdb 2.3.5-windows (MSC 190023506)...
+2017-04-29T15:28:33.712109901 0.007994s notice: Running on 6.2.9200 (Windows 8, Server 2012)
+2017-04-29T15:28:33.713110100 0.008681s notice: Loading data from directory D:\\Development\\Code\\fluked\\membership\\rethinkdb_data
+2017-04-29T15:28:33.780489600 0.076305s info: Automatically using cache size of 1697 MB
+2017-04-29T15:28:33.785994000 0.081851s notice: Listening for intracluster connections on port 29015
+2017-04-29T15:28:33.789996300 0.085606s notice: Listening for client driver connections on port 28015
+2017-04-29T15:28:33.790498400 0.086070s notice: Listening for administrative HTTP connections on port 8080
+2017-04-29T15:28:33.790498401 0.086077s notice: Listening on cluster address: 127.0.0.1
+2017-04-29T15:28:33.790498402 0.086081s notice: Listening on driver address: 127.0.0.1
+2017-04-29T15:28:33.790498403 0.086084s notice: Listening on http address: 127.0.0.1
+2017-04-29T15:28:33.790498404 0.086089s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-04-29T15:28:33.790498405 0.086094s notice: Server ready, "Gandalf_h48" 71795ace-ad68-4039-9753-6f2778167b45
+2017-04-29T15:37:14.509039700 520.818929s info: Table cdc48797-1bad-4f7d-b109-19a897fd452d: Starting a new Raft election for term 1.
+2017-04-29T15:37:14.524626500 520.820286s info: Table cdc48797-1bad-4f7d-b109-19a897fd452d: Added replica on this server.
+2017-04-29T15:37:14.524626501 520.822676s info: Table 630fca42-97a3-42a1-9bb4-2cfe53177629: Starting a new Raft election for term 1.
+2017-04-29T15:37:14.524626502 520.822748s info: Table 339ed3c3-459e-4f81-92ae-819983476db5: Starting a new Raft election for term 1.
+2017-04-29T15:37:14.524626503 520.823195s info: Table 630fca42-97a3-42a1-9bb4-2cfe53177629: Added replica on this server.
+2017-04-29T15:37:14.524626504 520.823599s info: Table 339ed3c3-459e-4f81-92ae-819983476db5: Added replica on this server.
+2017-04-29T15:37:14.587165500 520.885366s info: Table cdc48797-1bad-4f7d-b109-19a897fd452d: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-29T15:37:14.587165501 520.885535s info: Table 630fca42-97a3-42a1-9bb4-2cfe53177629: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-29T15:37:14.587165502 520.885614s info: Table 339ed3c3-459e-4f81-92ae-819983476db5: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-30T17:08:13.489969600 92380.228280s notice: Server got Control-C; shutting down...
+2017-04-30T17:08:13.489969601 92380.228804s notice: Shutting down client connections...
+2017-04-30T17:08:13.489969602 92380.229170s notice: All client connections closed.
+2017-04-30T17:08:13.489969603 92380.229181s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2017-04-30T17:08:13.505546700 92380.248138s notice: Storage engine shut down.

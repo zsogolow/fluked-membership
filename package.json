@@ -13,5 +13,5 @@
     "grunt-contrib-watch": "1.0.0",
     "should": "^11.2.1"
   },
-  "version": "0.0.2"
+  "version": "0.0.3"
 }
